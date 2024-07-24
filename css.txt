@@ -1,0 +1,54 @@
+*,*after,
+		*before{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url(images/bc.jpg);
+			background-size: cover;
+
+		}
+		form{
+			background: rgb(0, 0, 0, 0.1);
+			width: 500px;
+			height: 500px;
+			margin:120px auto;
+			border-radius: 10px;
+		}
+		h2{
+			text-align: center;
+			padding:50px;
+		}
+		input {
+			margin:0px 110px 0px;
+			height: 30px;
+			font-size: 16px;
+			text-transform: capitalize;
+			border-radius:10px;
+
+		}
+		input[type='text']{
+			border:3px solid skyblue;
+			background-image: url(images/us.png);
+			background-size: 20px;
+			background-repeat:no-repeat;
+			background-position:left;
+			background-position-x:5px;
+			padding:10px 40px;
+
+		}
+		input[type='password']{
+			border:3px solid skyblue;
+			background-image: url(images/oip.jpg);
+			background-size: 28px;
+			background-repeat:no-repeat;
+			background-position:left;
+			background-position-x:5px;
+			padding:10px 40px;
+		}
+		input[type="submit"]{
+			text-align: center;
+			background: rgb(0, 0, 0, 0.3);
+			margin:40px 110px 40px;
+			padding:10px 50px 25px ;
+			width: 55%;
+		}
